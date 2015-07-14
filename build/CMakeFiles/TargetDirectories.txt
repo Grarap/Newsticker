@@ -1,0 +1,4 @@
+/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/plasma_applet_netnewsticker_automoc.dir
+/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/uninstall.dir
+/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/plasma_applet_netnewsticker.dir
+/zen/Programmieren/NetNewsTicker/netnewsticker/build/po/CMakeFiles/translations.dir

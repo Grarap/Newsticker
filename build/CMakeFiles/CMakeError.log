@@ -1,0 +1,162 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1693459287/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1693459287.dir/build.make CMakeFiles/cmTryCompileExec1693459287.dir/build
+make[1]: Verzeichnis „/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1693459287.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1693459287.dir/CheckSymbolExists.c.o   -c /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In Funktion »main«:
+/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: Fehler: »Q_WS_WIN« nicht deklariert (erste Benutzung in dieser Funktion)
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: Anmerkung: jeder nicht deklarierte Bezeichner wird nur einmal für jede Funktion, in der er vorkommt, gemeldet
+CMakeFiles/cmTryCompileExec1693459287.dir/build.make:57: die Regel für Ziel „CMakeFiles/cmTryCompileExec1693459287.dir/CheckSymbolExists.c.o“ scheiterte
+make[1]: Verzeichnis „/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp“ wird verlassen
+make[1]: *** [CMakeFiles/cmTryCompileExec1693459287.dir/CheckSymbolExists.c.o] Fehler 1
+Makefile:117: die Regel für Ziel „cmTryCompileExec1693459287/fast“ scheiterte
+make: *** [cmTryCompileExec1693459287/fast] Fehler 2
+
+File /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4213950942/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4213950942.dir/build.make CMakeFiles/cmTryCompileExec4213950942.dir/build
+make[1]: Verzeichnis „/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4213950942.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec4213950942.dir/CheckSymbolExists.c.o   -c /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In Funktion »main«:
+/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: Fehler: »Q_WS_QWS« nicht deklariert (erste Benutzung in dieser Funktion)
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: Anmerkung: jeder nicht deklarierte Bezeichner wird nur einmal für jede Funktion, in der er vorkommt, gemeldet
+CMakeFiles/cmTryCompileExec4213950942.dir/build.make:57: die Regel für Ziel „CMakeFiles/cmTryCompileExec4213950942.dir/CheckSymbolExists.c.o“ scheiterte
+make[1]: *** [CMakeFiles/cmTryCompileExec4213950942.dir/CheckSymbolExists.c.o] Fehler 1
+make[1]: Verzeichnis „/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp“ wird verlassen
+Makefile:117: die Regel für Ziel „cmTryCompileExec4213950942/fast“ scheiterte
+make: *** [cmTryCompileExec4213950942/fast] Fehler 2
+
+File /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2787196827/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2787196827.dir/build.make CMakeFiles/cmTryCompileExec2787196827.dir/build
+make[1]: Verzeichnis „/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2787196827.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2787196827.dir/CheckSymbolExists.c.o   -c /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In Funktion »main«:
+/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: Fehler: »Q_WS_MAC« nicht deklariert (erste Benutzung in dieser Funktion)
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: Anmerkung: jeder nicht deklarierte Bezeichner wird nur einmal für jede Funktion, in der er vorkommt, gemeldet
+CMakeFiles/cmTryCompileExec2787196827.dir/build.make:57: die Regel für Ziel „CMakeFiles/cmTryCompileExec2787196827.dir/CheckSymbolExists.c.o“ scheiterte
+make[1]: *** [CMakeFiles/cmTryCompileExec2787196827.dir/CheckSymbolExists.c.o] Fehler 1
+make[1]: Verzeichnis „/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp“ wird verlassen
+Makefile:117: die Regel für Ziel „cmTryCompileExec2787196827/fast“ scheiterte
+make: *** [cmTryCompileExec2787196827/fast] Fehler 2
+
+File /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1748708642/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1748708642.dir/build.make CMakeFiles/cmTryCompileExec1748708642.dir/build
+make[1]: Verzeichnis „/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1748708642.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1748708642.dir/CheckSymbolExists.c.o   -c /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1748708642
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1748708642.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1748708642.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1748708642 -rdynamic 
+CMakeFiles/cmTryCompileExec1748708642.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+CMakeFiles/cmTryCompileExec1748708642.dir/build.make:88: die Regel für Ziel „cmTryCompileExec1748708642“ scheiterte
+make[1]: *** [cmTryCompileExec1748708642] Fehler 1
+make[1]: Verzeichnis „/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp“ wird verlassen
+Makefile:117: die Regel für Ziel „cmTryCompileExec1748708642/fast“ scheiterte
+make: *** [cmTryCompileExec1748708642/fast] Fehler 2
+
+File /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3161806436/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3161806436.dir/build.make CMakeFiles/cmTryCompileExec3161806436.dir/build
+make[1]: Verzeichnis „/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp“ wird betreten
+/usr/bin/cmake -E cmake_progress_report /zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3161806436.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3161806436.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3161806436
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3161806436.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3161806436.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3161806436 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: Fehler: ld gab 1 als Ende-Status zurück
+CMakeFiles/cmTryCompileExec3161806436.dir/build.make:88: die Regel für Ziel „cmTryCompileExec3161806436“ scheiterte
+make[1]: *** [cmTryCompileExec3161806436] Fehler 1
+make[1]: Verzeichnis „/zen/Programmieren/NetNewsTicker/netnewsticker/build/CMakeFiles/CMakeTmp“ wird verlassen
+Makefile:117: die Regel für Ziel „cmTryCompileExec3161806436/fast“ scheiterte
+make: *** [cmTryCompileExec3161806436/fast] Fehler 2
+
+

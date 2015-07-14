@@ -1,0 +1,111 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'feedsettingswidget.h'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.7)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../src/feedsettingswidget.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'feedsettingswidget.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.7. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_FeedSettingsWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       8,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      20,   19,   19,   19, 0x08,
+      38,   19,   19,   19, 0x08,
+      57,   19,   19,   19, 0x08,
+      81,   19,   19,   19, 0x08,
+     107,  103,   19,   19, 0x08,
+     130,  124,   19,   19, 0x08,
+     160,   19,   19,   19, 0x08,
+     188,  184,   19,   19, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_FeedSettingsWidget[] = {
+    "FeedSettingsWidget\0\0feedItemChanged()\0"
+    "addButtonClicked()\0getFeedsButtonClicked()\0"
+    "removeButtonClicked()\0url\0feedLoaded(QUrl)\0"
+    "reply\0replyFinished(QNetworkReply*)\0"
+    "feedDirectoryAccepted()\0val\0"
+    "maxItemsChanged(int)\0"
+};
+
+void FeedSettingsWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        FeedSettingsWidget *_t = static_cast<FeedSettingsWidget *>(_o);
+        switch (_id) {
+        case 0: _t->feedItemChanged(); break;
+        case 1: _t->addButtonClicked(); break;
+        case 2: _t->getFeedsButtonClicked(); break;
+        case 3: _t->removeButtonClicked(); break;
+        case 4: _t->feedLoaded((*reinterpret_cast< const QUrl(*)>(_a[1]))); break;
+        case 5: _t->replyFinished((*reinterpret_cast< QNetworkReply*(*)>(_a[1]))); break;
+        case 6: _t->feedDirectoryAccepted(); break;
+        case 7: _t->maxItemsChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData FeedSettingsWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject FeedSettingsWidget::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_FeedSettingsWidget,
+      qt_meta_data_FeedSettingsWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &FeedSettingsWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *FeedSettingsWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *FeedSettingsWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_FeedSettingsWidget))
+        return static_cast<void*>(const_cast< FeedSettingsWidget*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int FeedSettingsWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 8)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 8;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

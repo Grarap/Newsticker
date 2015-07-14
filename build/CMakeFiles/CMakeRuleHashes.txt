@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+fcab870f19e5fa83ceada61efd670359 CMakeFiles/plasma_applet_netnewsticker_automoc
+eb742c2d708016cfa5efd596a410b171 CMakeFiles/uninstall
+713414c08917eda77bb4d537a7ff418e settings.h
+d766eae3d576f059f2432d90c8fcbe5d ui_feeddirectory.h
+aed394885af17f80fce19dbb911f6b5c ui_feedsettings.h
+66a67f8df92818a265306ace7caf8454 ui_filtersettings.h
+1db1988703a6951c22b3cd5cb76e97f4 ui_visualsettings.h

@@ -1,0 +1,14 @@
+SOURCES:
+/zen/Programmieren/NetNewsTicker/netnewsticker/src/netnewsticker.cpp;/zen/Programmieren/NetNewsTicker/netnewsticker/src/item.cpp;/zen/Programmieren/NetNewsTicker/netnewsticker/src/newsfeedmanager.cpp;/zen/Programmieren/NetNewsTicker/netnewsticker/src/feedsettingswidget.cpp;/zen/Programmieren/NetNewsTicker/netnewsticker/src/filtersettingswidget.cpp;/zen/Programmieren/NetNewsTicker/netnewsticker/src/settingsdialog.cpp
+MOC_COMPILE_DEFINITIONS:
+_DEFAULT_SOURCE;_BSD_SOURCE;COMPILE_USE_QT4;_XOPEN_SOURCE=500;_DEFAULT_SOURCE;_BSD_SOURCE;QT_NO_STL;QT_NO_CAST_TO_ASCII;_REENTRANT;KDE_DEPRECATED_WARNINGS;KDE4_CMAKE_TOPLEVEL_DIR_LENGTH=32
+MOC_DEFINITIONS:
+ -D_DEFAULT_SOURCE -D_BSD_SOURCE -DCOMPILE_USE_QT4 -D_XOPEN_SOURCE=500 -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DQT_NO_STL -DQT_NO_CAST_TO_ASCII -D_REENTRANT -DKDE_DEPRECATED_WARNINGS -DKDE4_CMAKE_TOPLEVEL_DIR_LENGTH=32
+MOC_INCLUDES:
+/zen/Programmieren/NetNewsTicker/netnewsticker;/zen/Programmieren/NetNewsTicker/netnewsticker/build;/usr/include;/usr/include/KDE;/usr/include/qt4/KDE;/usr/include/qt4;/usr/include/qt4/QtXmlPatterns;/usr/include/qt4/QtXml;/usr/include/qt4/QtWebKit;/usr/include/qt4/QtUiTools;/usr/include/qt4/QtTest;/usr/include/qt4/QtSvg;/usr/include/qt4/QtSql;/usr/include/qt4/QtScriptTools;/usr/include/qt4/QtScript;/usr/include/qt4/QtOpenGL;/usr/include/qt4/QtNetwork;/usr/include/qt4/QtMultimedia;/usr/include/qt4/QtHelp;/usr/include/qt4/QtDesigner;/usr/include/qt4/QtDesigner;/usr/include/qt4/QtDeclarative;/usr/include/qt4/QtDBus;/usr/include/qt4/Qt3Support;/usr/include/qt4/QtGui;/usr/include/qt4/QtCore;/usr/include/qt4/Qt;/usr/share/qt4/mkspecs/default;/usr/include/qt4;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include;/usr/include
+CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE:
+ON
+CMAKE_BINARY_DIR:
+/zen/Programmieren/NetNewsTicker/netnewsticker/build
+CMAKE_SOURCE_DIR:
+/zen/Programmieren/NetNewsTicker/netnewsticker
