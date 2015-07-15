@@ -1,0 +1,16 @@
+[Desktop Entry]
+ Name=NetNewsTicker
+ Comment=RSS Feed News Ticker
+ Type=Service
+ ServiceTypes=Plasma/Applet
+ Icon=netnewsticker
+ X-KDE-Library=plasma_applet_netnewsticker
+ X-KDE-PluginInfo-Author=Christian Taubenheim
+ X-KDE-PluginInfo-Email=chris@taubenheim.de
+ X-KDE-PluginInfo-Name=netnewsticker
+ X-KDE-PluginInfo-Version=${app.version}
+ X-KDE-PluginInfo-Website=http://www.netnewsticker.org/
+ X-KDE-PluginInfo-Category=Online services
+ X-KDE-PluginInfo-Depends=
+ X-KDE-PluginInfo-License=GPL
+ X-KDE-PluginInfo-EnabledByDefault=true
