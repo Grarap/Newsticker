@@ -43,10 +43,9 @@ build()
       
 
     msg "Starting cmake..."
+pwd
 
-    cmake -DCMAKE_INCSTALL_PREFIX=/usr/ -DPLUGIN_INSTALL_DIR=/usr/lib/kde4 
--DSERVICES_INSTALL_DIR=/usr/share/kde4/services -DLOCALE_INSTALL_DIR=/usr/share/locale/ 
--DICON_INSTALL_DIR=/usr/share/icons ../
+    cmake -DCMAKE_INCSTALL_PREFIX=/usr/ -DPLUGIN_INSTALL_DIR=/usr/lib/kde4 -DSERVICES_INSTALL_DIR=/usr/share/kde4/services -DLOCALE_INSTALL_DIR=/usr/share/locale/ -DICON_INSTALL_DIR=/usr/share/icons ..
 
     make || return 1
 
@@ -54,5 +53,8 @@ build()
 
 package()
 {
+pwd
+cd ${srcdir}/${_gitname}/build
+pwd
     make DESTDIR=${pkgdir} install || return 1
 }
